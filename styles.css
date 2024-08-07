@@ -1,4 +1,4 @@
-#body{
+#body{                                       /*Aligns the calculator to the middle of the page*/
     margin: 0;
     display: flex;
     justify-content: center;
@@ -48,18 +48,18 @@ button{                                     /*Defines the color, font and size o
 
 
 }
-button:hover{
+button:hover{                               /*Makes the buttons to light up white when hovered over*/
     background-color:   hsl(0, 0%, 40%);
 }
 button:active{
-    background-color:   hsl(0, 0%, 50%);
+    background-color:   hsl(0, 0%, 50%);  /*Makes the buttons to flash white when pressed*/
 }
 .operator-btn{
-    background-color: hsl(35, 100%, 55%);
+    background-color: hsl(35, 100%, 55%); /*Makes the function buttons orange*/
 }
 .operator-btn:hover{
-    background-color: hsl(35, 100%, 65%);
+    background-color: hsl(35, 100%, 65%); /*Makes the buttons to light up white when hovered over*/
 }
 .operator-btn:active{
-    background-color: hsl(35, 100%, 75%);
+    background-color: hsl(35, 100%, 75%); /*Makes the buttons to flash white when pressed*/
 }
